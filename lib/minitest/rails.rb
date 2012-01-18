@@ -1,3 +1,4 @@
+require "rails"
 require "minitest/rails/controller"
 require "minitest/rails/fixtures"
 require "minitest/rails/helper"
