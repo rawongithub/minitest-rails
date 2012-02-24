@@ -9,7 +9,7 @@ Hoe.plugins.delete :rubyforge
 Hoe.spec 'minitest-rails' do
   developer 'Mike Moore', 'mike@blowmage.com'
 
-  self.summary     = 'MiniTest integration for Rails 3.1.'
+  self.summary     = 'MiniTest integration for Rails 3.x.'
   self.description = 'Adds MiniTest as the default testing library in Rails.'
   self.url         = 'http://blowmage.com/minitest-rails'
 
@@ -18,7 +18,7 @@ Hoe.spec 'minitest-rails' do
   self.testlib      = :minitest
 
   extra_deps << ['minitest',  '~> 2.2']
-  extra_deps << ['rails',     '~> 3.1.0']
+  extra_deps << ['rails',     '~> 3.1']
 end
 
 # vim: syntax=ruby
