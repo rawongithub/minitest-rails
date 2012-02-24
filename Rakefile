@@ -5,6 +5,7 @@ require 'hoe'
 
 Hoe.plugin :git
 Hoe.plugins.delete :rubyforge
+Hoe.plugin :gemspec
 
 Hoe.spec 'minitest-rails' do
   developer 'Mike Moore', 'mike@blowmage.com'
