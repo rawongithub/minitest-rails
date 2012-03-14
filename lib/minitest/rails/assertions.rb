@@ -3,6 +3,8 @@ require "active_support/dependencies/autoload"
 require "active_support/concern"
 require "active_support/testing/assertions"
 require "action_dispatch/testing/assertions"
+require "action_dispatch/testing/test_request"
+require "action_dispatch/testing/test_response"
 require "action_controller/test_case"
 
 module MiniTest
