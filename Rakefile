@@ -5,11 +5,12 @@ require 'hoe'
 
 Hoe.plugin :git
 Hoe.plugins.delete :rubyforge
+Hoe.plugin :gemspec
 
 Hoe.spec 'minitest-rails' do
   developer 'Mike Moore', 'mike@blowmage.com'
 
-  self.summary     = 'MiniTest integration for Rails 3.1.'
+  self.summary     = 'MiniTest integration for Rails 3.x.'
   self.description = 'Adds MiniTest as the default testing library in Rails.'
   self.url         = 'http://blowmage.com/minitest-rails'
 
